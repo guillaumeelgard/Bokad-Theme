@@ -4,6 +4,10 @@
     "description": "Bokad Theme",
     "version": "0.0.1",
     "publisher": "Bokad",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/guillaumeelgard/Bokad-Theme"
+    },
     "engines": {
         "vscode": "^1.65.0"
     },
