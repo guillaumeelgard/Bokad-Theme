@@ -1,0 +1,22 @@
+{
+    "name": "bokad-theme",
+    "displayName": "Bokad Theme",
+    "description": "Bokad Theme",
+    "version": "0.0.1",
+    "publisher": "Bokad",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Bokad Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Bokad Theme-color-theme.json"
+            }
+        ]
+    }
+}

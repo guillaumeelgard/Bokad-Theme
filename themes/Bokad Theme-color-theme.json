@@ -1,0 +1,27 @@
+{
+	"name": "Bokad Theme",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#000",
+		"editor.foreground": "#bbb",
+	},
+	"tokenColors": [
+		{
+			"scope": [
+				"punctuation.section.embedded.begin.php",
+			],
+			"settings": {
+				"foreground": "#63aec5",
+			}
+		},
+		{
+			"scope": [
+				"storage.type",
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#c5b363",
+			}
+		},
+	]
+}
