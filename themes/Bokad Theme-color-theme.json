@@ -8,19 +8,112 @@
 	"tokenColors": [
 		{
 			"scope": [
-				"punctuation.section.embedded.begin.php",
+				"text",
 			],
 			"settings": {
-				"foreground": "#63aec5",
+				"foreground": "#eee"
 			}
 		},
 		{
 			"scope": [
-				"storage.type",
-				"storage.modifier"
+				"constant.character",
 			],
 			"settings": {
-				"foreground": "#c5b363",
+				"foreground": "#895091"
+			}
+		},
+		{
+			"scope": [
+				"storage",
+				"keyword",
+				"entity.name.tag",
+				"punctuation.definition.tag",
+				"support.type.property-name",
+				"punctuation.support.type.property-name",
+			],
+			"settings": {
+				"foreground": "#b4956b"
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name",
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.string.end.html",
+				"punctuation.separator",
+			],
+			"settings": {
+				"foreground": "#927041"
+			}
+		},
+		{
+			"scope": [
+				"string",
+				"punctuation.definition.string.begin.php",
+				"punctuation.definition.string.end.php",
+				"punctuation.definition.string.begin.json",
+				"punctuation.definition.string.end.json",
+			],
+			"settings": {
+				"foreground": "#b170b9",
+			}
+		},
+		{
+			"scope": [
+				"variable",
+				"punctuation.definition.variable.php",
+				"comment.block.documentation.phpdoc.php",
+			],
+			"settings": {
+				"foreground": "#4b74bb"
+			}
+		},
+		{
+			"scope": [
+				"entity",
+				"meta",
+				"entity.name.function",
+				"meta.function-call",
+			],
+			"settings": {
+				"foreground": "#338f5c"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator",
+				"punctuation",
+				"meta.brace",
+			],
+			"settings": {
+				"foreground": "#abc6f7"
+			}
+		},
+		{
+			"scope": [
+				"constant",
+				"support.constant",
+			],
+			"settings": {
+				"foreground": "#c72d2d"
+			}
+		},
+		{
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#bdc000"
+			}
+		},
+		{
+			"scope": [
+				"comment",
+				"punctuation.definition.comment",
+			],
+			"settings": {
+				"foreground": "#666",
+				"fontStyle": "italic"
 			}
 		},
 	]
