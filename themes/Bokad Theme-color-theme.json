@@ -11,7 +11,7 @@
 				"text",
 			],
 			"settings": {
-				"foreground": "#eee"
+				"foreground": "#eee",
 			}
 		},
 		{
@@ -49,10 +49,8 @@
 		{
 			"scope": [
 				"string",
-				"punctuation.definition.string.begin.php",
-				"punctuation.definition.string.end.php",
-				"punctuation.definition.string.begin.json",
-				"punctuation.definition.string.end.json",
+				"punctuation.definition.string.begin",
+				"punctuation.definition.string.end",
 			],
 			"settings": {
 				"foreground": "#b170b9",
