@@ -16,7 +16,17 @@
 		},
 		{
 			"scope": [
+				"punctuation.definition.entity.html",
+				"constant.character.entity",
+			],
+			"settings": {
+				"foreground": "#8ccf78",
+			}
+		},
+		{
+			"scope": [
 				"constant.character",
+				"support.constant.font-name.less",
 			],
 			"settings": {
 				"foreground": "#895091"
@@ -28,7 +38,7 @@
 				"keyword",
 				"entity.name.tag",
 				"punctuation.definition.tag",
-				"support.type.property-name",
+				"support.type",
 				"punctuation.support.type.property-name",
 			],
 			"settings": {
@@ -37,10 +47,16 @@
 		},
 		{
 			"scope": [
+				"entity.name.tag.less",
 				"entity.other.attribute-name",
+				"punctuation.definition.entity.css",
+				"punctuation.definition.entity.less",
 				"punctuation.definition.string.begin.html",
 				"punctuation.definition.string.end.html",
-				"punctuation.separator",
+				"punctuation.separator.combinator.less",
+				"entity.name.tag.wildcard.less",
+				"keyword.operator.attribute-selector.less",
+				"meta.selector.less",
 			],
 			"settings": {
 				"foreground": "#927041"
@@ -51,6 +67,13 @@
 				"string",
 				"punctuation.definition.string.begin",
 				"punctuation.definition.string.end",
+				"meta.property-value.less",
+				"punctuation.definition.constant.less",
+				"keyword.other.important.less",
+				"constant.other.color.rgb-value.less",
+				"support.constant.color.w3c-special-color-keyword.less",
+				"support.constant.color.w3c-standard-color-name.less",
+				"support.constant.property-value.less",
 			],
 			"settings": {
 				"foreground": "#b170b9",
@@ -72,6 +95,8 @@
 				"meta",
 				"entity.name.function",
 				"meta.function-call",
+				"keyword.control.at-rule.charset.less",
+				"punctuation.definition.keyword.less",
 			],
 			"settings": {
 				"foreground": "#338f5c"
@@ -79,9 +104,11 @@
 		},
 		{
 			"scope": [
-				"keyword.operator",
 				"punctuation",
+				"keyword.operator",
 				"meta.brace",
+				"meta.embedded.block.php",
+				"punctuation.separator",
 			],
 			"settings": {
 				"foreground": "#abc6f7"
@@ -89,16 +116,17 @@
 		},
 		{
 			"scope": [
-				"constant",
-				"support.constant",
+				"constant.language",
+				"constant.other.php",
 			],
 			"settings": {
-				"foreground": "#c72d2d"
+				"foreground": "#a53232"
 			}
 		},
 		{
 			"scope": [
-				"constant.numeric"
+				"constant.numeric",
+				"keyword.other.unit.less",
 			],
 			"settings": {
 				"foreground": "#bdc000"
@@ -112,6 +140,14 @@
 			"settings": {
 				"foreground": "#666",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"epunctuation.section.property-list.end.bracket",
+			],
+			"settings": {
+				"foreground": "#ff0000"
 			}
 		},
 	]
