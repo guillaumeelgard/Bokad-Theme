@@ -26,6 +26,7 @@
 		{
 			"scope": [
 				"constant.character",
+				"support.constant.font-name.css",
 				"support.constant.font-name.less",
 			],
 			"settings": {
@@ -35,7 +36,8 @@
 		{
 			"scope": [
 				"storage",
-				"keyword",
+				"keyword.other.type.php",
+				"keyword.control",
 				"entity.name.tag",
 				"punctuation.definition.tag",
 				"support.type",
@@ -47,15 +49,20 @@
 		},
 		{
 			"scope": [
-				"entity.name.tag.less",
 				"entity.other.attribute-name",
-				"punctuation.definition.entity.css",
-				"punctuation.definition.entity.less",
 				"punctuation.definition.string.begin.html",
 				"punctuation.definition.string.end.html",
+				"entity.name.tag.css",
+				"entity.name.tag.less",
+				"punctuation.definition.entity.css",
+				"punctuation.definition.entity.less",
+				"punctuation.separator.combinator.css",
 				"punctuation.separator.combinator.less",
+				"entity.name.tag.wildcard.css",
 				"entity.name.tag.wildcard.less",
+				"keyword.operator.attribute-selector.css",
 				"keyword.operator.attribute-selector.less",
+				"meta.selector.css",
 				"meta.selector.less",
 			],
 			"settings": {
@@ -67,15 +74,25 @@
 				"string",
 				"punctuation.definition.string.begin",
 				"punctuation.definition.string.end",
+				"meta.property-value.css",
 				"meta.property-value.less",
+				"punctuation.definition.constant.css",
 				"punctuation.definition.constant.less",
+				"keyword.other.important.css",
 				"keyword.other.important.less",
+				"constant.other.color.rgb-value.css",
 				"constant.other.color.rgb-value.less",
+				"support.constant.color.w3c-special-color-keyword.css",
 				"support.constant.color.w3c-special-color-keyword.less",
+				"support.constant.color.w3c-standard-color-name.css",
 				"support.constant.color.w3c-standard-color-name.less",
+				"support.constant.property-value.css",
 				"support.constant.property-value.less",
+				"keyword.other.unit.css",
 				"keyword.other.unit.less",
+				"meta.property-value.css",
 				"meta.property-value.less",
+				"constant.numeric.css",
 				"constant.numeric.less",
 			],
 			"settings": {
@@ -98,7 +115,9 @@
 				"meta",
 				"entity.name.function",
 				"meta.function-call",
+				"keyword.control.at-rule.charset.css",
 				"keyword.control.at-rule.charset.less",
+				"punctuation.definition.keyword.css",
 				"punctuation.definition.keyword.less",
 			],
 			"settings": {
@@ -123,7 +142,7 @@
 				"constant.other.php",
 			],
 			"settings": {
-				"foreground": "#a53232"
+				"foreground": "#b83f3f"
 			}
 		},
 		{
