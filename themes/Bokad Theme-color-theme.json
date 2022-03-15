@@ -74,6 +74,9 @@
 				"support.constant.color.w3c-special-color-keyword.less",
 				"support.constant.color.w3c-standard-color-name.less",
 				"support.constant.property-value.less",
+				"keyword.other.unit.less",
+				"meta.property-value.less",
+				"constant.numeric.less",
 			],
 			"settings": {
 				"foreground": "#b170b9",
@@ -126,7 +129,6 @@
 		{
 			"scope": [
 				"constant.numeric",
-				"keyword.other.unit.less",
 			],
 			"settings": {
 				"foreground": "#bdc000"
