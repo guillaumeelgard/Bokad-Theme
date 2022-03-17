@@ -37,6 +37,7 @@
 			"scope": [
 				"storage",
 				"keyword.other.type.php",
+				"keyword.other.new.php",
 				"keyword.control",
 				"entity.name.tag",
 				"punctuation.definition.tag",
