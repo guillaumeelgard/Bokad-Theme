@@ -25,7 +25,6 @@
 		},
 		{
 			"scope": [
-				"constant.character",
 				"support.constant.font-name.css",
 				"support.constant.font-name.less",
 			],
@@ -166,11 +165,15 @@
 		},
 		{
 			"scope": [
-				"epunctuation.section.property-list.end.bracket",
+				"source.sql",
+				"keyword.other.sql",
+				"constant.character",
+				"constant.numeric.sql",
+				"storage.modifier.sql",
 			],
 			"settings": {
-				"foreground": "#ff0000"
+				"foreground": "#caa772"
 			}
-		},
+		}
 	]
 }
