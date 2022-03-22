@@ -37,6 +37,7 @@
 				"storage",
 				"keyword.other.type.php",
 				"keyword.other.new.php",
+				"keyword.other.function.use.php",
 				"keyword.control",
 				"entity.name.tag",
 				"punctuation.definition.tag",
