@@ -6,8 +6,8 @@
 * Still Work In Progress
 
 ## Screenshot
-![](https://raw.githubusercontent.com/guillaumeelgard/Bokad-Theme/main/demo.gif).
+![](https://raw.githubusercontent.com/guillaumeelgard/Bokad-Theme/main/demo.gif)
 
 ## More Information
-* [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Bokad.bokad-theme).
-* [GitHub repository](https://github.com/guillaumeelgard/Bokad-Theme).
+* [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Bokad.bokad-theme)
+* [GitHub repository](https://github.com/guillaumeelgard/Bokad-Theme)
